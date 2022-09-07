@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #011638;
+  background-color: white;
   color: #BFCC94;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -23,43 +23,57 @@ a {
   margin: auto;
 }
 
+.text_container{
+  width: 100%;
+  height: 50vh;
+}
+
 .title{
-    font-size: 7em;
+    font-size: 4rem;
     margin: 0;
     margin-left: 100px;
 }
 
 .headline{
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 100;
     margin: 0;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 50px;
 }
 
 .img_roge{
     background-color: white;
-    width: calc(100% - 100px);
-    margin: 50px;
-    border-radius: 50px;
+    width: calc(100% - 80px);
+    margin: 50px 40px;
+    border-radius: 5px;
     overflow: hidden;
     object-fit: cover;
+    position: relative;
+    top: -120px;
 }
 
 
 .bio{
-    display: flex;
-    flex-direction: column;
-    margin:0px 50px 200px 50px;
+  position: relative;
+  top: -150px;
+  display: flex;
+  flex-direction: column;
+  margin:0px 50px 0px 50px;
+}
+
+.bio_container{
+  border-radius: 50px;
+  position: relative;
 }
 
 .frase{
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 900;
 }
 
 .texto{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 100;
     line-height: 2rem;
     align-self: flex-end;
@@ -72,4 +86,115 @@ a {
     height: 700px;
     background-color: black;
     border-radius: 50px;
+}
+
+.footer{
+  width: 100%;
+  height: 200px;
+}
+
+.bg-blue{
+  background-color: #011638 ;
+  color: #BFCC94;
+}
+
+.bg-white{
+  background-color: white ;
+  color: #011638
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.btn{
+  background: none;
+  color: #364156;
+  font-size: 20px;
+  border: solid 2px #364156;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  outline: inherit;
+  transition: 0.3s;
+  text-align: center;
+}
+.btn:hover{
+  border-color: #08A045;
+  background-color: #08A045;
+  color: white;
+}
+
+@media (min-width: 700px){
+  .title{
+    font-size: 6rem;
+    margin-left: 200px;
+}
+.frase{
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+  .headline{
+    font-size: 4rem;
+    margin-left: 100px;
+  }
+  .bio{
+    top: -150px;
+  }
+
+  .img_roge{
+    top: -200px;
+  }
+
+  .text_container{
+    height: 60vh;
+  }
+  .frase{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.texto{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+}
+
+@media (min-width: 1000px){
+  .bio{
+    top: -200px;
+  }
+
+  .frase{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.texto{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+  .text_container{
+    height: 80vh;
+  }
+
+  .title{
+    font-size: 8rem;
+    margin-left: 200px;
+}
+
+  .headline{
+    font-size: 6rem;
+    margin-left: 100px;
+  }
+  .img_roge{
+    top: -300px;
+  }
 }
