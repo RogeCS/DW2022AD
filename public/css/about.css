@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1d1d1b;
+  color: #f7dc08;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid_container{
+  display: grid;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.title{
+    font-size: 7rem;
+    margin: 0;
+    margin-left: 300px;
+}
+
+.headline{
+    font-size: 5rem;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.img_roge{
+    background-color: white;
+    max-width: calc(100%-100px);
+    width: 100%;
+    margin: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin:0px 100px 100px 200px;
+}
+
+.frase{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.texto{
+    font-size: 1.3rem;
+    font-weight: 100;
+    width: 700px;
+    align-self: flex-end;
+}
+
+.card{
+    display: grid;
+    margin: 50px auto;
+    width: 80%;
+    height: 700px;
+    background-color: black;
+    border-radius: 50px;
+}
