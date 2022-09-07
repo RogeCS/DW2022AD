@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #1d1d1b;
-  color: #f7dc08;
+  background-color: #011638;
+  color: #F7C1BB;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -56,13 +56,13 @@ a {
 
 .btn{
   position: absolute;
-  top: 92%;
-  left: 45%;
+  top: 75%;
+  left: 44%;
   transform: translate(-50%, -50%);
   background: none;
-  color: #f7dc08;
+  color: #364156;
   font-size: 20px;
-  border: solid 2px #f7dc08;
+  border: solid 2px #364156;
   border-radius: 50px;
   padding: 20px 40px;
   width: 300px;
@@ -75,16 +75,17 @@ a {
 }
 
 .btn:hover{
-  background-color: #f7dc08;
-  color: black;
+  border-color: #08A045;
+  background-color: #08A045;
+  color: white;
 }
 
 .hide{
   display: flex;
   width: 100%;
   height: 50px;
-  background-color: #1d1d1b;
+  background-color: #011638;
   position: relative;
-  top: -57px;
+  top: -60px;
   justify-content: flex-end;
 }

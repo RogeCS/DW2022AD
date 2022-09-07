@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #1d1d1b;
-  color: #f7dc08;
+  background-color: #011638;
+  color: #BFCC94;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -24,9 +24,9 @@ a {
 }
 
 .title{
-    font-size: 7rem;
+    font-size: 7em;
     margin: 0;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 .headline{
@@ -34,13 +34,12 @@ a {
     font-weight: 100;
     margin: 0;
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 50px;
 }
 
 .img_roge{
     background-color: white;
-    max-width: calc(100%-100px);
-    width: 100%;
+    width: calc(100% - 100px);
     margin: 50px;
     border-radius: 50px;
     overflow: hidden;
@@ -51,18 +50,18 @@ a {
 .bio{
     display: flex;
     flex-direction: column;
-    margin:0px 100px 100px 200px;
+    margin:0px 50px 200px 50px;
 }
 
 .frase{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
 }
 
 .texto{
     font-size: 1.3rem;
     font-weight: 100;
-    width: 700px;
+    line-height: 2rem;
     align-self: flex-end;
 }
 
